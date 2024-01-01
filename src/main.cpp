@@ -25,8 +25,6 @@ int main(int argc, char *argv[])
   // Get screen resolution
   SDL_DisplayMode DM;
   SDL_GetCurrentDisplayMode(0, &DM);
-  int W = DM.w;
-  int H = DM.h;
   // Clear the window with a black background
   // SDL_SetRenderDrawColor( m_renderer, 0, 0, 0, 255 );
   SDL_RenderClear(m_renderer);
