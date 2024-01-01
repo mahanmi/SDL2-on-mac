@@ -13,6 +13,14 @@ This repository is for Mac users who want to use SDL on Mac with **VS Code** (bo
 
 - You need to have the **C/C++ Extension** installed in your VS Code. If you don't have it, you can install the C/C++ Extension from [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
 
+## Clone this repository
+
+Open VS Code and clone this repository use cmnd+shift+p and type `git clone` and paste this repository URL in the input box.
+
+```bash
+https://github.com/mahanmi/SDL-for-mac.git
+```
+
 ## install SDL2 Packages
 
 - **SDL2**
@@ -45,10 +53,15 @@ brew install sdl2_ttf
 brew install sdl2_mixer
 ```
 
+## link SDL2 Libraries
+
+There is a Script file in this repository called `link.sh`. You need to run this script file to link SDL2 libraries to your project.
+run this command in your terminal in the root directory of this repository:
+
+```bash
+sh link.sh
+```
+
 ## Try it out
 
 Now you can use SDL on your Mac.Clone this repository and Try running `src/main.cpp` using the run button in VS Code, or you can use Ctrl+F5 to see if it works.
-
-## Advanced Settings(Optional)
-
-If you want to have **updated** SDL2 packages, you have to link the latest version of SDL2 packages to your project. You can do this by linking them from the `/opt/homebrew/Cellar` directory.
