@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'build/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000031D4, symSize: 0xA94 }
+  - { offsetInCU: 0x32FF, offset: 0x32FF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000031D4, symSize: 0xA94 }
+  - { offsetInCU: 0x343F, offset: 0x343F, size: 0x8, addend: 0x0, symName: __Z4rectP12SDL_Rendereriiiiiiii, symObjAddr: 0xAF0, symBinAddr: 0x100003CC4, symSize: 0xA4 }
+  - { offsetInCU: 0x34E5, offset: 0x34E5, size: 0x8, addend: 0x0, symName: __Z4helpP12SDL_Rendererddib, symObjAddr: 0xB94, symBinAddr: 0x100003D68, symSize: 0x148 }
+...
