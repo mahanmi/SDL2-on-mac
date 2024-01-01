@@ -1,45 +1,45 @@
-# SDL for mac
+# SDL for Mac
 
-This repository is for Mac users who want to use SDL on Mac with VS Code (both Intel and Apple ARM compatible).
+This repository is for Mac users who want to use SDL on Mac with **VS Code** (both Intel and Apple ARM compatible).
 
 ## Requirements
 
 ### Homebrew
 
 - You need to have **Homebrew** installed on your Mac. If you don't have it, you can install Homebrew from [here](https://brew.sh/).
-  Then, you need to install **SDL2** and **SDL2_image** and **SDL2_gfx** and **SDL2_ttf** and **SDL2_mixer** using Homebrew.
+  Then, you need to install **SDL2**, **SDL2_image**, **SDL2_gfx**, **SDL2_ttf**, and **SDL2_mixer** using Homebrew.
 
 ### C/C++ Extension
 
-- You need to have **C/C++ Extension** installed on your VS Code. If you don't have it, you can install C/C++ Extension from [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
+- You need to have the **C/C++ Extension** installed in your VS Code. If you don't have it, you can install the C/C++ Extension from [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
 
 ## install SDL2 Packages
 
-SDL2
+- **SDL2**
 
 ```bash
 brew install sdl2
 ```
 
-SDL2_image
+- **SDL2_image**
 
 ```bash
 brew install sdl2_image
 ```
 
-SDL2_gfx
+- **SDL2_gfx**
 
 ```bash
 brew install sdl2_gfx
 ```
 
-SDL2_ttf
+- **SDL2_ttf**
 
 ```bash
 brew install sdl2_ttf
 ```
 
-SDL2_mixer
+- **SDL2_mixer**
 
 ```bash
 brew install sdl2_mixer
