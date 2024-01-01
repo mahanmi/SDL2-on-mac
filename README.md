@@ -55,11 +55,11 @@ brew install sdl2_mixer
 
 ## link SDL2 Libraries
 
-There is a Script file in this repository called `link.sh`. You need to run this script file to link SDL2 libraries to your project.
-run this command in your terminal in the root directory of this repository:
+There is a script file in this repository called `link.sh` located in the `lib` folder. You need to run this script file to link the SDL2 libraries to your project.
+To do this, open your terminal and navigate to the root directory of this repository. Then, run the following command:
 
 ```bash
-sh link.sh
+sh lib/link.sh
 ```
 
 ## Try it out
