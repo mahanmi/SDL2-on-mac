@@ -1,21 +1,12 @@
 {
 	"tasks": [
 		{
-			"type": "shell",
+			"type": "cppbuild",
 			"label": "build",
-			"command": "/bin/bash",
-			"args": [
-				{
-					"value": "make.sh",
-					"quoting": "escape"
-				},
-				{
-					"value": "${fileDirname}",
-					"quoting": "escape"
-				}
-			],
+			"command": "make",
+			"args": [],
 			"options": {
-				"cwd": "${workspaceFolder}/.vscode"
+				"cwd": "${workspaceFolder}"
 			},
 			"problemMatcher": ["$gcc"],
 			"group": "build",

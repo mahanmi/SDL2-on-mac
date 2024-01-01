@@ -1,6 +1,6 @@
-BUILD_DIR = build
 CC = g++
-SRC_DIR ?= src
+BUILD_DIR = build
+SRC_DIR = src
 SRC_FILES = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_NAMES = $(patsubst $(SRC_DIR)/%.cpp,%,$(SRC_FILES))
 INCLUDE_PATHS = -Iinclude
