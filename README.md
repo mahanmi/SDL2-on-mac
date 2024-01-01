@@ -47,7 +47,7 @@ brew install sdl2_mixer
 
 ## Try it out
 
-Now you can use SDL on your Mac. Try running `src/main.cpp` using the run button in VS Code, or you can use Ctrl+F5 to see if it works.
+Now you can use SDL on your Mac.Clone this repository and Try running `src/main.cpp` using the run button in VS Code, or you can use Ctrl+F5 to see if it works.
 
 ## Advanced Settings(Optional)
 
