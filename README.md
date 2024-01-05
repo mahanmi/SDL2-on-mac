@@ -18,7 +18,7 @@ This repository is for Mac users who want to use SDL on Mac with **VS Code** (bo
 Open VS Code and clone this repository use cmnd+shift+p and type `git clone` and paste this repository URL in the input box.
 
 ```bash
-https://github.com/mahanmi/SDL-for-mac.git
+https://github.com/mahanmi/SDL2-on-mac.git
 ```
 
 ## install SDL2 Packages
